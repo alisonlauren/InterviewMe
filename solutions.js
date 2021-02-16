@@ -2,14 +2,14 @@
 //Given an array of random srings, Write a function that will return a new array 
 //with only the words that contain the letter e.
 
-randomStrings = ['elephant', 'cat', 'penguin', 'bird', 'dog', 'rat', 'lion', 'parrot']
+randomStrings = ['elephant', 'cat', 'pEnguin', 'bird', 'dog', 'rat', 'lion', 'parrot']
 
 function onlyFindE(array) {
     const onlyE_Array = [];
     const everythingElse = [];
     for (let index = 0; index < array.length; index++) {
         const string= array[index];
-        if (string.includes('e') || string.includes('E')) {
+        if (string.toLowerCase().includes('e')) {
             onlyE_Array.push(string)
         } else {
             everythingElse.push(string)
