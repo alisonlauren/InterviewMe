@@ -43,3 +43,4 @@ function find4thChar(string) {
 find4thChar("hello")
 find4thChar("hi")
 find4thChar("alison")
+

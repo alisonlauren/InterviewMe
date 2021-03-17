@@ -48,13 +48,13 @@ console.log(fourOrMore(randomStrings))
 // Write a function that takes two agruements, String1 and String2. Join these strings together
 // and reverse the newString.
 
-function Add_and_Reverse(String1, String2) {
-    const addString = String1.concat(" ", String2);
+function Add_and_Reverse(str1, str2) {
+    const addString = str1.concat('' + str2);
     console.log(addString)
     const revString = addString.split('').reverse().join('')
     console.log(revString)
 }
-Add_and_Reverse('hello', 'you')
+Add_and_Reverse("hi", "what's up")
 
 
 //Independent Code Solution 2:
